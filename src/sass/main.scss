@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+body.overflow{
+    overflow: hidden;
+}
+body * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #131415;
+    font-family: "Helvetica Neue";
+}
+.layout{
+    width: 1240px;
+    margin: 0 auto;
+    @media screen and (max-device-width: 768px){
+        width: 100%;
+    }
+}
+.button{
+    background-color: #007DFE;
+    color: #fff;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    padding: 0 38px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    border:none;
+}
+
+@import "blocks/header.scss";
+@import "blocks/main-block.scss";
+@import "blocks/speakers.scss";
+@import "blocks/form.scss";

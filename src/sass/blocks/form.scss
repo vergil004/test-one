@@ -1,0 +1,93 @@
+.form{
+  margin-top: -2px;
+  padding: 143px 220px 160px;
+  background-color: #0A2756;
+  @media screen and (max-device-width: 768px){
+    padding: 100px 70px 90px;
+  }
+  @media screen and (max-device-width: 375px){
+    padding:75px 20px 112px;
+  }
+  &__title{
+    font-size: 60px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 69px;
+    @media screen and (max-device-width: 375px){
+      font-size: 40px;
+    }
+  }
+  &__top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:26px;
+    @media screen and (max-device-width: 375px){
+      grid-template-columns: 1fr;
+    }
+  }
+  input{
+    height: 50px;
+    padding: 0 19px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+  }
+  &__bottom{
+    margin-top: 25px;
+    textarea{
+      width: 100%;
+      resize: none;
+      height: 121px;
+      border:none;
+      padding: 13px 19px;
+      font-size: 18px;
+    }
+  }
+  &__button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 27px;
+    @media screen and (max-device-width: 375px){
+      margin-top: 138px;
+      justify-content: center;
+    }
+  }
+  &__info{
+    margin-top: 100px;
+    text-align: center;
+  }
+  &__email{
+    a{
+      text-decoration: none;
+      font-size: 40px;
+      font-weight: 300;
+      line-height: 56px;
+      color: #fff;
+      @media screen and (max-device-width: 375px){
+        font-size: 28px;
+      }
+    }
+  }
+  &__phone{
+    a{
+      text-decoration: none;
+      font-size: 32px;
+      font-weight: 300;
+      line-height: 45px;
+      color: #fff;
+      @media screen and (max-device-width: 375px){
+        font-size: 22px;
+      }
+    }
+  }
+  &__about{
+    margin-top: 15px;
+    a{
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+    }
+  }
+}

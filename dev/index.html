@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/min.main.css">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="layout">
+        <div class="header__cont"><a class="header__logo" href="/">TYNY<span>2019</span></a>
+          <button class="header__burger"><span></span><span></span><span></span></button>
+          <div class="header__hide">
+            <div class="header__menu"><a class="header__link">Конференция</a><a class="header__link">Программа</a><a class="header__link" href="#speakers">Спикеры</a><a class="header__link">Фото</a><a class="header__link">Материалы</a></div><a class="header__reg">Регистрация</a>
+            <div class="header__social"><a class="social__link social__link--email"><img src="img/mail.svg"></a><a class="social__link social__link--facebook"><img src="img/facebook.svg" width="27"></a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="layout">
+      <section class="main">
+        <div class="main__top">
+          <duv class="main__conf"><img src="img/conf.svg">
+            <div class="main__reg">
+              <button class="button">зарегистрироваться</button>
+            </div>
+          </duv>
+          <div class="main__messages"><img src="img/messages.svg"></div>
+        </div>
+        <div class="main__bottom">
+          <div class="main__bottomTitle">
+            Команда рекламного холдинга GroupM рада
+            открыть для вас двери digital-конференции NextM!
+          </div>
+          <div class="main__bottomDesc">
+            NextM – это ежегодная digital-конференция, организованная&nbsp;ведущей международной рекламной группой GroupM,
+            входящей в состав коммуникационного холдинга WPP и представленной в России агентствами Mindshare,
+            MediaCom и Wavemaker.
+          </div>
+        </div>
+        <div class="main__down">
+          <button class="main__downButton"><img src="img/down.svg"></button>
+        </div>
+      </section>
+      <section class="speakers" id="speakers">
+        <div class="speakers__title">Спикеры</div>
+        <div class="div speakers__slider">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/speaker_01.png">
+                <div class="speakers__info">
+                  <div class="speakers__name">Ярон Фаризон</div>
+                  <div class="speakers__desc">СEO MediaCom</div>
+                </div>
+              </div>
+              <div class="swiper-slide"><img src="img/speaker_01.png">
+                <div class="speakers__info">
+                  <div class="speakers__name">Ярон Фаризон</div>
+                  <div class="speakers__desc">СEO MediaCom</div>
+                </div>
+              </div>
+              <div class="swiper-slide"><img src="img/speaker_01.png">
+                <div class="speakers__info">
+                  <div class="speakers__name">Ярон Фаризон</div>
+                  <div class="speakers__desc">СEO MediaCom</div>
+                </div>
+              </div>
+              <div class="swiper-slide"><img src="img/speaker_01.png">
+                <div class="speakers__info">
+                  <div class="speakers__name">Ярон Фаризон</div>
+                  <div class="speakers__desc">СEO MediaCom</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <section class="form" id="form">
+        <h2 class="form__title">Отправить сообщение</h2>
+        <form>
+          <div class="form__top">
+            <input placeholder="Ваше имя">
+            <input placeholder="Email">
+          </div>
+          <div class="form__bottom">
+            <textarea placeholder="Ваше сообщение"></textarea>
+          </div>
+          <div class="form__button">
+            <button class="button" type="submit">Отправить</button>
+          </div>
+        </form>
+        <div class="form__info">
+          <div class="form__email"><a href="mailto:info@groupmnextm.ru">info@groupmnextm.ru</a></div>
+          <div class="form__phone"><a href="tel:+74956414080">+7 (495) 641-40-80</a></div>
+          <div class="form__about"><a href="/">Правовая информация</a></div>
+        </div>
+      </section>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
